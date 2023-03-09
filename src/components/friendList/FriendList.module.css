@@ -1,11 +1,10 @@
-.friendList{
-   
-    width: 300px;
-    padding: 50px;
-    
-    margin-top: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    
-    background-color: grey;
+.friendList {
+  width: 300px;
+  padding: 50px;
+
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+
+  background-color: grey;
 }
