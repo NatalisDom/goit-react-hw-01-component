@@ -2,9 +2,6 @@ import PropTypes from 'prop-types';
 import { getRandomHexColor } from 'js/RandomHexColor';
 import css from 'components/statistics/Statistics.module.css';
 
-// створюємо компонент реакт
-// якщо title  не переданий, не повинна рендеритись розмітка заголовка <h2>
-// у розмітку підгружається масив з файлу data.json
 
 export const Statistics = ({ title, stats }) => {
   return (

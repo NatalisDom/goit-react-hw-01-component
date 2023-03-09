@@ -1,14 +1,20 @@
 .profile{
+    margin-top: 50px;
     width: 300px;
     margin-left: auto;
     margin-right: auto;
     padding: 50px;
     background-color: grey;
+   
+   
+   
 }
 .description{
     background-color: yellowgreen ;
     text-align: center;
     padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px 5px rgba(0, 0, 0, 0.5);
 }
 
 .avatar{
@@ -33,13 +39,18 @@
     font-size: 18px;
     line-height: 1.25;
     
+    
 }
 
 .stats{
     display: flex;    
     width:300px;
+    margin-top: 10px;
+
     text-align: center;
-    background-color: dimgrey ;
+    background-color: dimgrey;   
+    
+    box-shadow: 0 10px 10px 5px rgba(0, 0, 0, 0.5);
 }
 
 .stats li{

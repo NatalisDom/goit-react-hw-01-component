@@ -2,6 +2,9 @@ import { Profile } from 'components/profile/Profile';
 import user from 'dataBase/user.json';
 import { Statistics } from 'components/statistics/Statistics';
 import data from 'dataBase/data.json'
+import { FriendList } from 'components/friendList/FriendList';
+import friends from 'dataBase/friends.json'
+
 
 export const App = () => {
   return (
@@ -12,8 +15,9 @@ export const App = () => {
         location={user.location}
         avatar={user.avatar}
         stats={user.stats}
-      />      
+      />
       <Statistics stats={data} />
+      <FriendList friends={friends} />;
     </>
   );
 };
